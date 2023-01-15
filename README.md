@@ -21,10 +21,10 @@ watchdog event trigger on new file or folder creation / multi threaded multiple 
 
     python3 directory_watcher.py
 
-# algorithm fully modularized into classes for each image , audio , video easy incae of changing and understanding
+algorithm fully modularized into classes for each image , audio , video easy incae of changing and understanding
 
-# audio configuration such as model loading , pre processing goes same as image methods provided
-# video section complete the read input video , processed save the processed and original videos into respective folders.
+audio configuration such as model loading , pre processing goes same as image methods provided
+video section complete the read input video , processed save the processed and original videos into respective folders.
 
-#  Thank you !!!
+Thank you !!!
 

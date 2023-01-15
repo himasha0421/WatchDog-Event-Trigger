@@ -1,0 +1,33 @@
+image_configurations:
+
+  # get the image directory requirements
+  image_dump: main/images/imagedump
+  processed: main/images/processed
+  results: main/images/results
+  csv_file: image_results.csv
+
+
+audio_configurations:
+
+  # get the audio directory requirements
+  audio_dump: main/audios/audiodump
+  processed: main/audios/processed
+  results: main/audios/results
+  csv_file: audio_results.csv
+
+video_configurations:
+
+  # get the video directory requirements
+  video_dump: main/video/videodump
+  processed: main/video/processed
+  ffmpeg: main/video/ffmpeg
+  results: main/video/results
+  csv_file: video_results.csv
+
+model_configurations:
+
+  # get the model paths for each image , audio , video ( chage the model directory)
+  image_net_path: models/mobilenet_v2.pt
+  audio_net_path: models/mobilenet_v2.pt
+  video_net_path: models/model_name.pt
+
